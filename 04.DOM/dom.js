@@ -18,3 +18,12 @@ var Title = document.querySelector(".title");
 console.log(Title.innerText);
 Title.style.fontWeight = "bold";
 Title.style.color = "green";
+
+// Items =============
+
+var Items = document.getElementsByClassName("list-group-item");
+// console.log(Items[2]);
+Items[2].style.backgroundColor = "green";
+Items[2].style.color = "white";
+
+for (let i = 0; i < Items.length; i++) Items[i].style.fontWeight = "bold";
